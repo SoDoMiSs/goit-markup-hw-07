@@ -24,27 +24,39 @@
           <div class="header-logo">
           <a class="logo" href="index.html">
             <span class="logo1">WEB</span>STUDIO
-          </a></div>
-          
-            <ul class="site-nav list">
-              <li class="site-nav-linc"><a class="site-link link current" href="index.html">Studio</a></li>
-              <li class="site-nav-linc"><a class="site-link link" href="./portfolio.html">Portfolio</a></li>
-              <li class="site-nav-linc"><a class="site-link link" href>Contacts</a></li>
-            </ul>
-        </nav>     
-        <ul class="con-nav list">
-          <li>
-            <a class="contacts con-mailo" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li>
-            <a class="contacts con-tel" href="tel:+110001111111">+11 (000) 111-11-11</a>
-    </li></ul></div>  
+          </a>
+        </div>
+
+                <ul class="site-nav list">
+                  <li class="site-nav-linc"><a class="site-link link current" href="index.html">Studio</a></li>
+                  <li class="site-nav-linc"><a class="site-link link" href="./portfolio.html">Portfolio</a></li>
+                  <li class="site-nav-linc"><a class="site-link link" href>Contacts</a></li>
+                </ul>
+          </nav>     
+                <ul class="con-nav list">
+                    <li>
+                        <a class="contacts con-mailo" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li>
+                        <a class="contacts con-tel" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    </li>
+                </ul>
+             
+         
+<!-- Burger mobile menu -->
+
+         <button class="menu-toggle js-open-menu" aria-controls="mobile-menu" aria-expanded="false">
+          <svg width="32" height="32" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+          </svg>
+        </button>
+  </div>  
     </header>
     <main>
       <!-- Hero -->
       <section class="hero">
         <div class="container">
-            <h1 class="hero-title">Effective Solutions for Your Business</h1>
+            <h1 class="hero-title">Effective Solutions <br>for Your Business</h1>
           <button class="servise-button" data-modal-open type="button">Order Service</button>
         </div>
       </section>
@@ -112,25 +124,27 @@
           <h2 class="responsibilities-title">What are we doing</h2>
           <ul class="list responsibilities-list">
             <li>
-              <img src="./images/section1/img1.jpg" alt="Rectangle 71">
+              <img srcset="./images/section1/img-1_desk@1x.jpg 360w ./images/section1/img-1_desk@2x.jpg 720w" src="./images/section1/img-1_desk_@1x.jpg" alt="Rectangle 71">
             </li>
             <li>
-              <img src="./images/section1/img2.jpg" alt="Rectangle 71">
+              <img srcset="./images/section1/img-2_desk@1x.jpg 360w ./images/section1/img-2_desk@2x.jpg 720w" src="./images/section1/img-2_desk_@1x.jpg" alt="Rectangle 71">
             </li>
             <li>
-              <img src="./images/section1/img3.jpg" alt="Rectangle 71">
+              <img srcset="./images/section1/img-3_desk@1x.jpg 360w ./images/section1/img-3_desk@2x.jpg 720w" src="./images/section1/img-3_desk_@1x.jpg" alt="Rectangle 71">
             </li>
           </ul>
         </div>
       </section>
+     
       <!-- Team -->
+
       <section class="team">
        <div class="container team-container"> 
         <h2 class="second-title">Our Team</h2>
         
-        <ul class="list container-team  ">
+        <ul class="list container-team ">
           <li class="team-list">
-            <img src="./images/team/teamcard1.jpg" alt="Team Card 1">
+            <img sizes="(min-width:480px) 264px, 100vw" srcset="./images/team/img_264-1.jpg, ./images/team/img_528-1.jpg" src="./images/team/img_264-1.jpg" loading="lazy" alt="Team Card 1">
             <div class="team-wraper">
               <h3 class="team-title">Mark Guerrero</h3>
               <p class="paragraph-title">Product Designer</p>
@@ -151,7 +165,7 @@
             </div>
           </li>
           <li class="team-list">
-            <img src="./images/team/TeamCard2.jpg" alt="Team Card 1">
+            <img sizes="(min-width:480px) 264px, 100vw" srcset="./images/team/img_264-2.jpg, ./images/team/img_528-2.jpg" src="./images/team/img_264-2.jpg" loading="lazy" alt="Team Card 2">
             <div class="team-wraper">
               <h3 class="team-title">Tom Ford</h3>
               <p class="paragraph-title">Frontend Developer</p>
@@ -172,7 +186,7 @@
             </div>
           </li>
           <li class="team-list">
-            <img src="./images/team/TeamCard3.jpg" alt="Team Card 1">
+            <img sizes="(min-width:480px) 264px, 100vw" srcset="./images/team/img_264-3.jpg, ./images/team/img_528-3.jpg" src="./images/team/img_264-3.jpg" loading="lazy" alt="Team Card 3">
             <div class="team-wraper">
               <h3 class="team-title">Camila Garcia</h3>
               <p class="paragraph-title">Marketing</p>
@@ -193,7 +207,7 @@
             </div>
           </li>
           <li class="team-list">
-            <img src="./images/team/TeamCard4.jpg" alt="Team Card 1">
+            <img sizes="(min-width:480px) 264px, 100vw" srcset="./images/team/img_264-4.jpg, ./images/team/img_528-4.jpg" src="./images/team/img_264-4.jpg"  loading="lazy" alt="Team Card 4">
             <div class="team-wraper">
               <h3 class="team-title">Daniel Wilson</h3>
               <p class="paragraph-title">UI Designer</p>
@@ -346,6 +360,50 @@
           </form>
       </div>
     </div>
-    <script src="./modal.js"></script>
+
+<!-- Mobile menu -->
+
+<div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg class="modal-icon" width="24" height="24">
+            <use href="./images/icons.svg#close"></use>
+        </svg>
+      </button>
+
+      <ul class="list burger-list">
+                  <li ><a class="site-link link current" href="index.html">Studio</a></li>
+                  <li ><a class="site-link link" href="./portfolio.html">Portfolio</a></li>
+                  <li><a class="site-link link" href>Contacts</a></li>
+      </ul>
+      <div class="burger-contacs">
+        <ul class="list burger-con">
+        
+                      <li>
+                          <a class="burger-tel link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                      </li>
+                      <li>
+                          <a class="burger-mailo link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                      </li>
+        </ul>
+                      <ul class="list socials burger-social">
+                  <li class="socials-item"><a class="socials-link" href><svg class="socials-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg></a></li>
+                  <li class="socials-item"><a class="socials-link" href><svg class="socials-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg></a></li>
+                  <li class="socials-item"><a class="socials-link" href><svg class="socials-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg></a></li>
+                  <li class="socials-item"><a class="socials-link" href><svg class="socials-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg></a></li>
+                </ul>
+      </div>
+    </div>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js" defer integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA==" crossorigin="anonymous"></script>
+    <script src="./js/mobile-menu.js" defer></script>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
